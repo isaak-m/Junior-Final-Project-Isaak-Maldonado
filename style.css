@@ -1,0 +1,28 @@
+header {
+    background-color: #E9B08E;
+    display: flex;
+}
+header h1 {
+    margin: auto;
+}
+main {
+    margin-left: 6%;
+    margin-right: 6%;
+    text-align: center;
+}
+img:not("shoppingCart"){
+    width: 15%;
+    height: 15%;
+    object-fit: cover;
+}
+.imgLayout {
+    display: flex;
+    justify-content: space-around;
+}
+hr {
+    border-color: #A4330D;
+}
+footer {
+    background-color: #E9B08E;
+    text-align: center;
+}
